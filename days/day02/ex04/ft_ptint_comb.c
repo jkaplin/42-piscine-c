@@ -1,9 +1,6 @@
 #include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+int	ft_putchar(char c);
 
 void	ft_print_comb(void)
 {
@@ -22,12 +19,10 @@ void	ft_print_comb(void)
 			{
 				ft_putchar(digit[0]);
 				ft_putchar(digit[1]);
-				ft_putchar(digit[2]++);
+				ft_putchar(digit[2]);
 				if (digit[0] != '7')
-				{
-					write(1, ",", 1);
-					write(1, " ", 1);
-				}
+					write(1, ", ", 2);
+				digit[2]++;
 			}
 			digit[1]++;
 		}
