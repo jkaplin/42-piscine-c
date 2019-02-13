@@ -1,0 +1,5 @@
+Credentials cache: API:BF8D8488-3CB9-437C-A0CD-2C389890FC77
+        Principal: jkaplin@42.US.ORG
+
+  Issued                Expires               Principal
+Oct 22 17:57:52 2018  Oct 23 03:57:52 2018  krbtgt/42.US.ORG@42.US.ORG
